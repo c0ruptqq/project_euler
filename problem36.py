@@ -1,5 +1,7 @@
 s = 1
 
+#one million is less than 2^20 so the first half of the binary
+#palindrom would be less than 2^11-1 
 for i in range(1, 2047+1):
     b = "{0:b}".format(i)
     rb = b[::-1]
