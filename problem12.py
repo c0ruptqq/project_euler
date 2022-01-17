@@ -22,4 +22,6 @@ while d < 500:
     inc += 1
     print(n,d)
 """
+
+"No solution yet"
 print(n)
